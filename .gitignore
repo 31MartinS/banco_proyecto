@@ -1,0 +1,38 @@
+# Ignorar credenciales de Google Cloud
+*.json
+!package.json  # Excepción para package.json si es un proyecto Node.js
+
+# Archivos de configuración sensibles
+.env
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.der
+*.jks
+
+# Ignorar claves SSH
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+
+# Ignorar carpetas de dependencias
+node_modules/
+vendor/
+
+# Ignorar archivos de compilación y caché
+*.log
+*.tmp
+*.lock
+*.cache
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno en Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
